@@ -10,6 +10,8 @@
 <body ng-controller="MainController">
   <h1>{{ message }}</h1>
   <div>{{ error }}</div>
+  
+  {{ countdown }}
   <form name="searchUser" ng-submit="search(username)">
     <input type="search" placeholder="User name to find" ng-model="username" />
     <input type="submit" value="Search" ng-click="search(username)" />
